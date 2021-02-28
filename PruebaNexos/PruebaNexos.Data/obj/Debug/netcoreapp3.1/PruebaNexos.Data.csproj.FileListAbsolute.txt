@@ -1,0 +1,15 @@
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaNexos.Data.csprojAssemblyReference.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaNexos.Data.AssemblyInfoInputs.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaNexos.Data.AssemblyInfo.cs
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaNexos.Data.csproj.CoreCompileInputs.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaNexos.Data.deps.json
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaNexos.Data.runtimeconfig.json
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaNexos.Data.runtimeconfig.dev.json
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaNexos.Data.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaNexos.Data.pdb
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaNexos.Models.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaNexos.Models.pdb
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaNexos.Data.csproj.CopyComplete
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaNexos.Data.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaNexos.Data.pdb
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaNexos.Data.genruntimeconfig.cache

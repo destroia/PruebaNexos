@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PruebaNexosWeb", "PruebaNexosWeb\", "{B5623A5E-B3A7-4046-AB09-169D748C8AA8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59954"
+		Debug.AspNetCompiler.PhysicalPath = "PruebaNexosWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59954\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59954"
+		Release.AspNetCompiler.PhysicalPath = "PruebaNexosWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59954\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59954"
+		SlnRelativePath = "PruebaNexosWeb\"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaNexos.Api", "PruebaNexos.Api\PruebaNexos.Api.csproj", "{38268544-DFD8-4BCF-9AE1-4E9EEB1CA5FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaNexos.Data", "PruebaNexos.Data\PruebaNexos.Data.csproj", "{3BEE4FD3-BF5E-45A3-8D83-71B7DB336A06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaNexos.Models", "PruebaNexos.Models\PruebaNexos.Models.csproj", "{C70AC51E-736E-4D0E-91B9-20B525CBA031}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5623A5E-B3A7-4046-AB09-169D748C8AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5623A5E-B3A7-4046-AB09-169D748C8AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5623A5E-B3A7-4046-AB09-169D748C8AA8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5623A5E-B3A7-4046-AB09-169D748C8AA8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{38268544-DFD8-4BCF-9AE1-4E9EEB1CA5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38268544-DFD8-4BCF-9AE1-4E9EEB1CA5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38268544-DFD8-4BCF-9AE1-4E9EEB1CA5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38268544-DFD8-4BCF-9AE1-4E9EEB1CA5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEE4FD3-BF5E-45A3-8D83-71B7DB336A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEE4FD3-BF5E-45A3-8D83-71B7DB336A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEE4FD3-BF5E-45A3-8D83-71B7DB336A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEE4FD3-BF5E-45A3-8D83-71B7DB336A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70AC51E-736E-4D0E-91B9-20B525CBA031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70AC51E-736E-4D0E-91B9-20B525CBA031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70AC51E-736E-4D0E-91B9-20B525CBA031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70AC51E-736E-4D0E-91B9-20B525CBA031}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56E68109-FA38-4D32-8A76-A7B3AAE128B4}
+	EndGlobalSection
+EndGlobal

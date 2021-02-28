@@ -1,0 +1,15 @@
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaMvm.Data.deps.json
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaMvm.Data.runtimeconfig.json
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaMvm.Data.runtimeconfig.dev.json
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaMvm.Data.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaMvm.Data.pdb
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaMvm.Models.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\bin\Debug\netcoreapp3.1\PruebaMvm.Models.pdb
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaMvm.Data.csprojAssemblyReference.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaMvm.Data.AssemblyInfoInputs.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaMvm.Data.AssemblyInfo.cs
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaMvm.Data.csproj.CoreCompileInputs.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaMvm.Data.csproj.CopyComplete
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaMvm.Data.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaMvm.Data.pdb
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Data\obj\Debug\netcoreapp3.1\PruebaMvm.Data.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\bin\Debug\netcoreapp3.1\PruebaMvm.Models.deps.json
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\bin\Debug\netcoreapp3.1\PruebaMvm.Models.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\bin\Debug\netcoreapp3.1\PruebaMvm.Models.pdb
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaMvm.Models.csprojAssemblyReference.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaMvm.Models.AssemblyInfoInputs.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaMvm.Models.AssemblyInfo.cs
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaMvm.Models.csproj.CoreCompileInputs.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaMvm.Models.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaMvm.Models.pdb

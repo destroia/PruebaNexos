@@ -1,0 +1,9 @@
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\bin\Debug\netcoreapp3.1\PruebaNexos.Models.deps.json
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\bin\Debug\netcoreapp3.1\PruebaNexos.Models.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\bin\Debug\netcoreapp3.1\PruebaNexos.Models.pdb
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaNexos.Models.AssemblyInfoInputs.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaNexos.Models.AssemblyInfo.cs
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaNexos.Models.csproj.CoreCompileInputs.cache
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaNexos.Models.dll
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaNexos.Models.pdb
+C:\Users\destr\source\repos\PruebaMvm.Api\PruebaMvm.Models\obj\Debug\netcoreapp3.1\PruebaNexos.Models.csprojAssemblyReference.cache

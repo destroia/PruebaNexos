@@ -1,0 +1,137 @@
+<br />
+<dir class="container">
+  <dir class="mx-auto" style="width: 200px;">
+    <h1 class="text-success">
+      Editoriales
+    </h1>
+  </dir>
+  <br />
+  <br />
+  <div class="row">
+    <!--<div class="col-3">
+      <div class="row  w-100 align-items-center" >
+
+        <div class="col-12 ">
+          <button class="btn btn-success" (click)="LookUpdate()">Actualizar editorial  </button>
+        </div>
+      </div>
+    </div>-->
+
+    <div class="col-3">
+      <div  class="row  w-100 align-items-center" >
+
+        <div class="col-12 ">
+          <button class="btn btn-success" (click)="LookCreate()">Crear editorial  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="lookForm" class="card">
+    <form [formGroup]="formularioEditorial" style="margin:50px;">
+      <div class="row">
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" class="form-control" formControlName="nombre" placeholder="Nombre de editorial">
+            <p *ngIf="formularioEditorial.controls['nombre'].invalid && formularioEditorial.controls['nombre'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Direccion</label>
+            <input type="text" class="form-control" placeholder="Nombre de direccion" formControlName="direccion">
+            <p *ngIf="formularioEditorial.controls['direccion'].invalid && formularioEditorial.controls['direccion'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>E-mail</label>
+            <input type="email" class="form-control" placeholder="Nombre de email" formControlName="email">
+            <p *ngIf="formularioEditorial.controls['email'].invalid && formularioEditorial.controls['email'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+
+        <div class="col-4">
+          <div class="form-group">
+            <label># libros max</label>
+            <input type="number" class="form-control" placeholder="Nombre de email" formControlName="maxLibros">
+            <p *ngIf="formularioEditorial.controls['maxLibros'].invalid && formularioEditorial.controls['maxLibros'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+
+        </div>
+      </div>
+    </form>
+
+
+  </div>
+
+  
+  <h3 *ngIf="errorCrear" class="text-danger">
+    Error
+  </h3>
+  <div *ngIf="lookCrear" class="row  w-100 align-items-center" style="transform:translate(50px,-50px)">
+
+    <div class="col-12 ">
+      <button class="btn btn-success" [disabled]="!formularioEditorial.valid" (click)="CrearEditorial()">Crear editorial  </button>
+    </div>
+  </div>
+  <div *ngIf="lookUpdate" class="row  w-100 align-items-center" style="transform:translate(50px,-50px)">
+
+    <div class="col-12 ">
+      <button class="btn btn-success" [disabled]="!formularioEditorial.valid" (click)="Actualizar()">Actializar Editorial  </button>
+    </div>
+  </div>
+ 
+  <br />
+  <br />
+
+
+
+  <div class="table-responsive ">
+    <table class="table  table-striped">
+      <thead>
+        <tr class="table-striped ">
+          <th scope="col">Id </th>
+          <th scope="col">Nombre </th>
+          <th scope="col">Direccion</th>
+          <th scope="col">E-mail</th>
+          <th scope="col"># libros</th>
+          <th scope="col">Max libros</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let li of listaEditoriales" class="table-striped ">
+          <td>{{li.id}} </td>
+          <td>{{li.nombre}}</td>
+          <td>{{li.direccion}}</td>
+          <td>{{li.email}}</td>
+          <td>{{li.numLibros}}</td>
+          <td>{{li.maxLibros}}</td>
+          <td>
+            <div class="btn-group" role="group">
+
+
+              <button (click)="Ver(li)" class="btn btn-success">Ver</button>
+              <button (click)="Update(li)" class="btn btn-success">Update</button>
+              <button (click)="Eliminar(li)" class="btn btn-danger">Borrar</button>
+
+            </div>
+
+
+          </td>
+          <td>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</dir>

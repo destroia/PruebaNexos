@@ -1,0 +1,154 @@
+<br />
+<dir class="container">
+  <dir class="mx-auto" style="width: 200px;">
+    <h1 class="text-success">
+      Autores
+    </h1>
+  </dir>
+  <br />
+  <br />
+  <div class="row">
+    <!--<div class="col-3">
+      <div class="row  w-100 align-items-center">
+
+        <div class="col-12 ">
+          <button class="btn btn-success" (click)="LookUpdate()">Actualizar Autore  </button>
+        </div>
+      </div>
+    </div>-->
+
+    <div class="col-3">
+      <div class="row  w-100 align-items-center">
+
+        <div class="col-12 ">
+          <button class="btn btn-success" (click)="LookCreate()">Crear autore  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="lookForm" class="card">
+    <form [formGroup]="formularioAutor" style="margin:50px;">
+      <div class="row">
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" class="form-control" formControlName="nombre" placeholder="Nombre de autor">
+            <p *ngIf="formularioAutor.controls['nombre'].invalid && formularioAutor.controls['nombre'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Direccion</label>
+            <input type="text" class="form-control" placeholder="Nombre de Ciudad" formControlName="ciudad">
+            <p *ngIf="formularioAutor.controls['ciudad'].invalid && formularioAutor.controls['ciudad'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>E-mail</label>
+            <input type="email" class="form-control" placeholder="Nombre de email" formControlName="email">
+            <p *ngIf="formularioAutor.controls['email'].invalid && formularioAutor.controls['email'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Fecha</label>
+            <input type="date" class="form-control" placeholder="Nombre de email" formControlName="fecha">
+            <p *ngIf="formularioAutor.controls['fecha'].invalid && formularioAutor.controls['fecha'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="form-group">
+            <label>Editoriales</label>
+
+            <select formControlName="editorialId" class="form-control">
+              <p *ngIf="formularioAutor.controls['editorialId'].invalid && formularioAutor.controls['editorialId'].dirty " class="text-danger"
+                 style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+              <option *ngFor="let dato of listaEditores" value={{dato.id}}>
+                {{dato.nombre}}
+              </option>
+            </select>
+          </div>
+        </div>
+
+
+      </div>
+    </form>
+
+
+  </div>
+
+
+  <h3 *ngIf="errorCrear" class="text-danger">
+    Error
+  </h3>
+  <div *ngIf="lookCrear" class="row  w-100 align-items-center" style="transform:translate(50px,-50px)">
+
+    <div class="col-12 ">
+      <button class="btn btn-success" [disabled]="!formularioAutor.valid" (click)="CrearEditorial()">Crear editorial  </button>
+    </div>
+  </div>
+  <div *ngIf="lookUpdate" class="row  w-100 align-items-center" style="transform:translate(50px,-50px)">
+
+    <div class="col-12 ">
+      <button class="btn btn-success" [disabled]="!formularioAutor.valid" (click)="Actualizar()">Actializar Editorial  </button>
+    </div>
+  </div>
+
+  <br />
+  <br />
+
+
+
+  <div class="table-responsive ">
+    <table class="table  table-striped">
+      <thead>
+        <tr class="table-striped ">
+          <th scope="col">Id </th>
+          <th scope="col">IdEditorial </th>
+          <th scope="col">Nombre </th>
+          <th scope="col">Ciudad</th>
+          <th scope="col">E-mail</th>
+          <th scope="col">Fecha</th>
+          <th scope="col">Max libros</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let li of listaAutores" class="table-striped ">
+          <td>{{li.id}} </td>
+          <td>{{li.editorialId}}</td>
+          <td>{{li.nombre}}</td>
+          <td>{{li.ciudad}}</td>
+          <td>{{li.email}}</td>
+          <td>{{li.fecha}}</td>
+          
+          <td>
+            <div class="btn-group" role="group">
+
+
+              <button (click)="Ver(li)" class="btn btn-success">Ver</button>
+              <button (click)="Update(li)" class="btn btn-success">Update</button>
+              <button (click)="Eliminar(li)" class="btn btn-danger">Borrar</button>
+
+            </div>
+
+
+          </td>
+          <td>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</dir>

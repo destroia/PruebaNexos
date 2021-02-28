@@ -1,0 +1,129 @@
+<br />
+<dir class="container">
+  <dir class="mx-auto" style="width: 200px;">
+    <h1 class="text-success">
+      Libros
+    </h1>
+  </dir>
+  <br />
+  <br />
+  <div class="row">
+   
+    <div class="col-3">
+      <div class="row  w-100 align-items-center">
+
+        <div class="col-12 ">
+          <button class="btn btn-success" (click)="LookCreate()">Crear Libros  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="lookForm" class="card">
+    <form [formGroup]="formularioLibro" style="margin:50px;">
+      <div class="row">
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" class="form-control" formControlName="titulo" placeholder="Nombre de libro">
+            <p *ngIf="formularioLibro.controls['titulo'].invalid && formularioLibro.controls['titulo'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Año del libro</label>
+            <input type="number" class="form-control" placeholder="Año del libro" formControlName="year">
+            <p *ngIf="formularioLibro.controls['year'].invalid && formularioLibro.controls['year'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="form-group">
+            <label>Genero</label>
+            <input type="text" class="form-control" placeholder="Nombre de genero" formControlName="genero">
+            <p *ngIf="formularioLibro.controls['genero'].invalid && formularioLibro.controls['genero'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+        </div>
+
+
+        <div class="col-4">
+          <div class="form-group">
+            <label># de paginas</label>
+            <input type="number" class="form-control" placeholder="Numero de paginas " formControlName="numPaginas">
+            <p *ngIf="formularioLibro.controls['numPaginas'].invalid && formularioLibro.controls['numPaginas'].dirty" class="text-danger"
+               style="top:0px; position:relative; "> El campo nombre es obligatorio</p>
+          </div>
+
+        </div>
+      </div>
+    </form>
+
+
+  </div>
+
+
+  <h3 *ngIf="errorCrear" class="text-danger">
+    Error
+  </h3>
+  <div *ngIf="lookCrear" class="row  w-100 align-items-center" style="transform:translate(50px,-50px)">
+
+    <div class="col-12 ">
+      <button class="btn btn-success" [disabled]="!formularioLibro.valid" (click)="CrearEditorial()">Crear editorial  </button>
+    </div>
+  </div>
+  <div *ngIf="lookUpdate" class="row  w-100 align-items-center" style="transform:translate(50px,-50px)">
+
+    <div class="col-12 ">
+      <button class="btn btn-success" [disabled]="!formularioLibro.valid" (click)="Actualizar()">Actializar Editorial  </button>
+    </div>
+  </div>
+
+  <br />
+  <br />
+
+
+
+  <div class="table-responsive ">
+    <table class="table  table-striped">
+      <thead>
+        <tr class="table-striped ">
+          <th scope="col">Id </th>
+          <th scope="col">Nombre </th>
+          <th scope="col">Genero</th>
+          <th scope="col">Año</th>
+          <th scope="col"># Paginas</th>
+          <th scope="col">Max libros</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let li of listaLibros" class="table-striped ">
+          <td>{{li.id}} </td>
+          <td>{{li.titulo}}</td>
+          <td>{{li.genero}}</td>
+          <td>{{li.year}}</td>
+          <td>{{li.numPaginas}}</td>
+          
+          <td>
+            <div class="btn-group" role="group">
+
+
+             
+              <button (click)="Update(li)" class="btn btn-success">Update</button>
+              <button (click)="Eliminar(li)" class="btn btn-danger">Borrar</button>
+
+            </div>
+
+
+          </td>
+          <td>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</dir>
